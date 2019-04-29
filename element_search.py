@@ -1,3 +1,6 @@
 def find(data, elem):
-    return elem in data
+    for _elem in data:
+        if _elem == elem:
+            return True
+    return False   
      
